@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="harshpvtltd.example.uas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".reset"></activity>
+        <activity android:name=".editor" />
+        <activity android:name=".user" />
+        <activity android:name=".register" />
+        <activity android:name=".sports0" />
+        <activity android:name=".cook0" />
+        <activity android:name=".tech0" />
+        <activity android:name=".code0" />
+        <activity android:name=".art0" />
+        <activity android:name=".lit0" />
+        <activity android:name=".poet0" />
+        <activity android:name=".culture0" />
+        <activity android:name=".sing0" />
+        <activity android:name=".dance" />
+        <activity android:name=".Devloper" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

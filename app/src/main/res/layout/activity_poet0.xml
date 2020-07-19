@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#390118"
+    tools:context=".poet0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POET"
+        android:background="#B60F48"
+        android:textColor="#390118"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>

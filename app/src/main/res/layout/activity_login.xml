@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:background="#B60F48"
+        android:text="Login"
+        android:gravity="center"
+        android:textColor="#390118"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usrn"
+        android:layout_width="348dp"
+        android:layout_height="37dp"
+        android:background="#0CCC8383"
+        android:hint="Username"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#612B2B" />
+
+    <EditText
+        android:id="@+id/pswd"
+        android:layout_width="348dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="#0CCC8383"
+        android:hint="PassWord"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#612B2B" />
+
+    <Button
+        android:id="@+id/btnln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:layout_gravity="center"
+        android:background="#B60F48"
+        android:text="Login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registered Now ?"
+        android:layout_marginTop="10sp"
+        android:textColor="#FFFF"
+        android:gravity="center"
+        android:clickable="true"
+        android:id="@+id/reg"
+        android:textSize="18sp"/>
+
+</LinearLayout>

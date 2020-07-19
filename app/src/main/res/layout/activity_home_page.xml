@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#390118"
+    tools:context=".HomePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="414sp"
+                android:layout_height="278sp"
+                android:src="@drawable/lpu" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/culture"
+                        android:clickable="true"
+                        android:layout_width="194sp"
+                        android:layout_height="170sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="40sp"
+                        android:src="@drawable/culture" />
+
+                    <ImageView
+                        android:id="@+id/dance"
+                        android:clickable="true"
+                        android:layout_width="184sp"
+                        android:layout_height="170sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="40sp"
+                android:src="@drawable/dance" />
+                </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/sing"
+            android:clickable="true"
+            android:layout_width="194sp"
+            android:layout_height="190sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="40sp"
+                android:src="@drawable/sing" />
+            <ImageView
+                android:id="@+id/sport"
+                android:clickable="true"
+                android:layout_width="184sp"
+                android:layout_height="170sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="40sp"
+                android:src="@drawable/sports" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/lit"
+                android:clickable="true"
+                android:layout_width="184sp"
+                android:layout_height="170sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="40sp"
+                android:src="@drawable/lit" />
+
+            <ImageView
+                android:id="@+id/poet"
+                android:clickable="true"
+                android:layout_width="184sp"
+                android:layout_height="170sp"
+                android:layout_marginLeft="22sp"
+                android:layout_marginTop="40sp"
+                android:src="@drawable/poet" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/tech"
+                android:clickable="true"
+                android:layout_width="184sp"
+                android:layout_height="170sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="40sp"
+                android:src="@drawable/tech" />
+            <ImageView
+                android:id="@+id/coad"
+                android:clickable="true"
+                android:layout_width="184sp"
+                android:layout_height="170sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="40sp"
+                android:src="@drawable/coad" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/cook"
+                android:clickable="true"
+                android:layout_width="184sp"
+                android:layout_height="170sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="40sp"
+                android:src="@drawable/cook" />
+            <ImageView
+                android:id="@+id/art"
+                android:clickable="true"
+                android:layout_width="184sp"
+                android:layout_height="170sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="40sp"
+                android:src="@drawable/art"
+                android:layout_marginBottom="20sp"/>
+        </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developer"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="#FFF"
+                android:clickable="true"
+                android:id="@+id/developer"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

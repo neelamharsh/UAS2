@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#390118"
+    android:orientation="vertical"
+    tools:context=".register">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Edit Profile "
+        android:textColor="#390118"
+        android:layout_marginTop="30sp"
+        android:background="#B60F48"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/user"
+        android:layout_marginTop="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Name : "
+        android:layout_marginLeft="10sp"
+        android:paddingLeft="13sp"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/saveName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0CCC8383"
+        android:hint="Username"
+        android:textColor="#FFFF"
+        android:textColorHint="#612B2B" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reg. No. : "
+        android:layout_marginLeft="0sp"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/saveReg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0CCC8383"
+        android:hint="1190XXXX"
+        android:textColor="#FFFF"
+        android:textColorHint="#612B2B" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:paddingLeft="13sp"
+        android:layout_marginLeft="10sp"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/saveEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0CCC8383"
+        android:hint="Email"
+        android:textColor="#FFFF"
+        android:textColorHint="#612B2B" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+        >
+        <Button
+            android:id="@+id/saveBtn"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="#B60F48"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:layout_marginLeft="160dp"
+        />
+    </LinearLayout>
+</LinearLayout>

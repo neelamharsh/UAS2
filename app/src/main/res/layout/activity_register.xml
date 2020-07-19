@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#390118"
+    tools:context=".register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" University Announcement system"
+        android:textColor="#390118"
+        android:layout_marginTop="30sp"
+        android:background="#B60F48"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:text="Name : "
+        android:layout_marginLeft="10sp"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/RegName"
+        android:layout_width="298dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="107sp"
+        android:layout_marginTop="100sp"
+        android:background="#0CCC8383"
+        android:hint="Username"
+        android:textColor="#FFFF"
+        android:textColorHint="#612B2B" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:text="Reg. No. : "
+        android:layout_marginLeft="10sp"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/RegNum"
+        android:layout_width="298dp"
+        android:layout_height="37dp"
+        android:inputType="number"
+        android:layout_marginLeft="107sp"
+        android:layout_marginTop="160sp"
+        android:background="#0CCC8383"
+        android:hint="1190XXXX"
+        android:textColor="#FFFF"
+        android:textColorHint="#612B2B" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:text="Email : "
+        android:layout_marginLeft="10sp"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/RegEmail"
+        android:layout_width="298dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="107sp"
+        android:layout_marginTop="220sp"
+        android:background="#0CCC8383"
+        android:hint="user@mail.com"
+        android:textColor="#FFFF"
+        android:textColorHint="#612B2B" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        android:text="Password : "
+        android:layout_marginLeft="10sp"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/RegPass"
+        android:layout_width="298dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="107sp"
+        android:layout_marginTop="280sp"
+        android:background="#0CCC8383"
+        android:hint="*********"
+        android:inputType="textPassword"
+        android:textColor="#FFFF"
+        android:textColorHint="#612B2B" />
+    <Button
+        android:id="@+id/RegBtn"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="Registered "
+        android:background="#B60F48"
+        android:layout_marginTop="360dp"
+        android:gravity="center"
+        android:layout_marginLeft="160dp"
+/>
+</RelativeLayout>

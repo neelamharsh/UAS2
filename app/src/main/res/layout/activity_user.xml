@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#390118"
+    android:orientation="vertical"
+    tools:context=".user">
+
+    <ImageView
+        android:id="@+id/showImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="24dp"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/showName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#FFF"
+        android:text="USERNAME"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/showNum"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#FFF"
+        android:text="Registration No."
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/showEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#FFF"
+        android:text="Email"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:src="@drawable/pen"
+        android:clickable="true"
+        />
+</LinearLayout>
