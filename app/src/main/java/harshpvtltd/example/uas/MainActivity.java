@@ -1,17 +1,18 @@
 package harshpvtltd.example.uas;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
+public class MainActivity extends AppCompatActivity {
+   // private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
+     //   mAuth = FirebaseAuth.getInstance();
         final Thread thread = new Thread()
         {
             public void run()
@@ -32,4 +33,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };thread.start();
     }
+
+
 }

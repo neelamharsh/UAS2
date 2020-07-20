@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#390118"
-    tools:context=".register">
+    android:background="#F6F0F2"
+    >
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=" University Announcement system"
+        android:text="@string/university_announcement_system"
         android:textColor="#390118"
-        android:layout_marginTop="30sp"
         android:background="#B60F48"
         android:gravity="center"
         android:textSize="24sp"/>
@@ -21,11 +19,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="105dp"
-        android:text="Name : "
+        android:text="@string/name"
         android:layout_marginLeft="10sp"
-        android:textColor="#FFFF"
+        android:textColor="#352121"
         android:textSize="18sp"
-        />
+        android:layout_marginStart="10sp" />
     <EditText
         android:id="@+id/RegName"
         android:layout_width="298dp"
@@ -33,19 +31,22 @@
         android:layout_marginLeft="107sp"
         android:layout_marginTop="100sp"
         android:background="#0CCC8383"
-        android:hint="Username"
-        android:textColor="#FFFF"
-        android:textColorHint="#612B2B" />
+        android:hint="@string/username"
+        android:textColor="#4C2A2A"
+        android:textColorHint="#612B2B"
+        android:autofillHints=""
+        android:inputType="text"
+        android:layout_marginStart="107sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="165dp"
-        android:text="Reg. No. : "
+        android:text="@string/reg_no"
         android:layout_marginLeft="10sp"
-        android:textColor="#FFFF"
+        android:textColor="#3C2525"
         android:textSize="18sp"
-        />
+        android:layout_marginStart="10sp" />
     <EditText
         android:id="@+id/RegNum"
         android:layout_width="298dp"
@@ -54,58 +55,65 @@
         android:layout_marginLeft="107sp"
         android:layout_marginTop="160sp"
         android:background="#0CCC8383"
-        android:hint="1190XXXX"
-        android:textColor="#FFFF"
-        android:textColorHint="#612B2B" />
+        android:hint="@string/_1190xxxx"
+        android:textColor="#4A2F2F"
+        android:textColorHint="#612B2B"
+        android:autofillHints=""
+        android:layout_marginStart="107sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="225dp"
-        android:text="Email : "
+        android:text="@string/email"
         android:layout_marginLeft="10sp"
-        android:textColor="#FFFF"
+        android:textColor="#553131"
         android:textSize="18sp"
-        />
+        android:layout_marginStart="10sp" />
     <EditText
         android:id="@+id/RegEmail"
         android:layout_width="298dp"
         android:layout_height="37dp"
-        android:layout_marginLeft="107sp"
-        android:layout_marginTop="220sp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="220dp"
         android:background="#0CCC8383"
-        android:hint="user@mail.com"
-        android:textColor="#FFFF"
-        android:textColorHint="#612B2B" />
+        android:hint="@string/user_mail_com"
+        android:textColor="#4C2C2C"
+        android:textColorHint="#612B2B"
+        android:autofillHints=""
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="107sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="285dp"
-        android:text="Password : "
+        android:text="@string/regpasw"
         android:layout_marginLeft="10sp"
-        android:textColor="#FFFF"
+        android:textColor="#3E2121"
         android:textSize="18sp"
-        />
+        android:layout_marginStart="10sp" />
     <EditText
         android:id="@+id/RegPass"
         android:layout_width="298dp"
         android:layout_height="37dp"
-        android:layout_marginLeft="107sp"
         android:layout_marginTop="280sp"
         android:background="#0CCC8383"
-        android:hint="*********"
+        android:hint="@string/hint"
         android:inputType="textPassword"
-        android:textColor="#FFFF"
-        android:textColorHint="#612B2B" />
+        android:textColor="#3E2020"
+        android:textColorHint="#612B2B"
+    android:layout_marginLeft="107dp"
+        android:autofillHints=""
+        android:layout_marginStart="107dp" />
     <Button
         android:id="@+id/RegBtn"
         android:layout_width="100sp"
         android:layout_height="wrap_content"
-        android:text="Registered "
+        android:text="@string/registerbtn"
         android:background="#B60F48"
         android:layout_marginTop="360dp"
         android:gravity="center"
         android:layout_marginLeft="160dp"
-/>
+        android:layout_marginStart="160dp" />
 </RelativeLayout>

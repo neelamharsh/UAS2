@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#390118"
-    tools:context=".code0">
+    android:orientation="vertical"
+    android:background="#FDF6F9"
+    >
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="COOK"
+        android:text="@string/cook"
         android:background="#B60F48"
         android:textColor="#390118"
         android:textSize="29sp"
         android:textStyle="bold"
-        android:layout_marginTop="10sp"
-        android:textAlignment="center"
+        android:gravity="center_horizontal"
         />
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
 
-</RelativeLayout>
+</LinearLayout>
