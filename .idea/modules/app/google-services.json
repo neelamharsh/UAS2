@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "821612033281",
+    "firebase_url": "https://uasfirebaseproject-a1f85.firebaseio.com",
+    "project_id": "uasfirebaseproject-a1f85",
+    "storage_bucket": "uasfirebaseproject-a1f85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821612033281:android:34904eb35dc92b2db21700",
+        "android_client_info": {
+          "package_name": "harshpvtltd.example.uas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821612033281-l64g3c4u2omqnrguttln76s4r70mmnfd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "harshpvtltd.example.uas",
+            "certificate_hash": "5cc475d5dcf878f8c4f68bfc6923160cbd10e056"
+          }
+        },
+        {
+          "client_id": "821612033281-7c088khup6a22j6eiqk4953l45nk41pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhicX4pkrot5XE_XKwdAlTmrk0OaRnK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821612033281-7c088khup6a22j6eiqk4953l45nk41pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#390118"
     android:orientation="vertical"
-    tools:context=".register">
+    >
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=" Edit Profile "
+        android:text="@string/edit_profile"
         android:textColor="#390118"
         android:layout_marginTop="30sp"
         android:background="#B60F48"
@@ -25,7 +25,7 @@
         android:layout_gravity="center"
         android:src="@drawable/user"
         android:layout_marginTop="20sp"
-        />
+        android:contentDescription="@string/imagedis" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,20 +36,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:text="Name : "
+        android:text="@string/nameinpro"
         android:layout_marginLeft="10sp"
         android:paddingLeft="13sp"
         android:textColor="#FFFF"
         android:textSize="18sp"
-        />
+        android:layout_marginStart="10sp"
+        android:paddingStart="13sp"
+        tools:ignore="RtlSymmetry" />
     <EditText
         android:id="@+id/saveName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#0CCC8383"
-        android:hint="Username"
+        android:hint="@string/usernameinprof"
         android:textColor="#FFFF"
-        android:textColorHint="#612B2B" />
+        android:textColorHint="#612B2B"
+        android:autofillHints=""
+        android:inputType="text" />
 
     </LinearLayout>
     <LinearLayout
@@ -61,19 +65,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Reg. No. : "
+        android:text="@string/reg_noinprof"
         android:layout_marginLeft="0sp"
         android:textColor="#FFFF"
         android:textSize="18sp"
-        />
+        android:layout_marginStart="0sp" />
     <EditText
         android:id="@+id/saveReg"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#0CCC8383"
-        android:hint="1190XXXX"
+        android:hint="@string/_1190xxxxinprof"
         android:textColor="#FFFF"
-        android:textColorHint="#612B2B" />
+        android:textColorHint="#612B2B"
+        android:autofillHints=""
+        android:inputType="text" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -84,20 +90,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email : "
+        android:text="@string/emailinprof"
         android:paddingLeft="13sp"
         android:layout_marginLeft="10sp"
         android:textColor="#FFFF"
         android:textSize="18sp"
-        />
+        android:paddingStart="13sp"
+        tools:ignore="RtlSymmetry"
+        android:layout_marginStart="10sp" />
     <EditText
         android:id="@+id/saveEmail"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#0CCC8383"
-        android:hint="Email"
+        android:hint="@string/emailinpro"
         android:textColor="#FFFF"
-        android:textColorHint="#612B2B" />
+        android:textColorHint="#612B2B"
+        android:autofillHints=""
+        android:inputType="textEmailAddress" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -109,11 +119,11 @@
             android:id="@+id/saveBtn"
         android:layout_width="100sp"
         android:layout_height="wrap_content"
-        android:text="Save"
+        android:text="@string/save"
         android:background="#B60F48"
         android:layout_marginTop="60dp"
         android:gravity="center"
         android:layout_marginLeft="160dp"
-        />
+            android:layout_marginStart="160dp" />
     </LinearLayout>
 </LinearLayout>

@@ -1,3 +1,61 @@
 <resources>
     <string name="app_name">U.A.S</string>
+    <string name="technical">TECHNICAL</string>
+    <string name="give_annoucement_here">Give Annoucement here</string>
+    <string name="add">Add</string>
+    <string name="registered_now">Registered Now ?</string>
+    <string name="Login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="log">Login</string>
+    <string name="art_craft">ART/CRAFT</string>
+    <string name="type_of_annoucement">type of annoucement</string>
+    <string name="annoucement_number_like_1_2_3">annoucement number like 1,2,3..</string>
+    <string name="dance">DANCE</string>
+    <string name="culture">CULTURE</string>
+    <string name="cook">COOK</string>
+    <string name="codefun">CODEFUN</string>
+    <string name="poet">POET</string>
+    <string name="singing">SINGING</string>
+    <string name="literature">LITERATURE</string>
+    <string name="emailid">Email</string>
+    <string name="login">Login</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="xxxxxxx">XXXXXXX</string>
+    <string name="university_announcement_system">University Announcement system</string>
+    <string name="name">Name :</string>
+    <string name="reg_no">Reg. No. :</string>
+    <string name="email">Email :</string>
+    <string name="hint">*********</string>
+    <string name="registerbtn">Register</string>
+    <string name="_1190xxxx">1190XXXX</string>
+    <string name="user_mail_com">user@mail.com</string>
+    <string name="regpasw">Password :</string>
+    <string name="adminbtn">Admin</string>
+    <string name="usernameprofile">USERNAME</string>
+    <string name="image">Image</string>
+    <string name="registration_no">Registration No.</string>
+    <string name="emailprof">Email</string>
+    <string name="todo">TODO</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="imagedis">TODO</string>
+    <string name="nameinpro">Name :</string>
+    <string name="usernameinprof">Username</string>
+    <string name="reg_noinprof">Reg. No. :</string>
+    <string name="_1190xxxxinprof">1190XXXX</string>
+    <string name="emailinprof">Email :</string>
+    <string name="emailinpro">Email</string>
+    <string name="save">Save</string>
+    <string-array name="usertype">
+        <item>tech</item>
+        <item>art</item>
+        <item>culture</item>
+        <item>singing</item>
+        <item>sport</item>
+        <item>code</item>
+        <item>poet</item>
+        <item>literature</item>
+        <item>dance</item>
+        <item>cook</item>
+    </string-array>
 </resources>

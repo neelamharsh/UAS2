@@ -14,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class HomePage extends AppCompatActivity implements  View.OnClickListener{
 
     @Override
@@ -120,6 +122,7 @@ public class HomePage extends AppCompatActivity implements  View.OnClickListener
             builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
+                    FirebaseAuth.getInstance().signOut();
                     startActivity(new Intent(HomePage.this,Login.class));
                     finish();
                 }

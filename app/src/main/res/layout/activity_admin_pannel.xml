@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="@string/give_annoucement_here"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/annoucement"
+        android:layout_width="395dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="133dp" />
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="@string/add"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginStart="300dp" />
+
+    <EditText
+        android:id="@+id/child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:autofillHints=""
+        android:hint="@string/annoucement_number_like_1_2_3"
+        tools:ignore="LabelFor" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="Type of Annoucement" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="gravity"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="161dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
